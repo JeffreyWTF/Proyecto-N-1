@@ -1,0 +1,95 @@
+.pacifico-regular {
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+    background-color: rgb(244, 222, 180);
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+}   
+
+section{
+    background-color: rgb(247, 239, 217);
+    border-radius: 10px;
+}
+
+
+#card-wrapper{
+    width: 800px; 
+    padding: 2%;
+    position: relative; 
+}
+
+.triangle-border{
+    background: white;
+    padding: 2%;
+    position: relative;
+    
+
+    -webkit-clip-path: polygon(50% 0%, 100% 22%, 100% 100%, 0% 100%, 0% 22%);
+    clip-path: polygon(50% 0%, 100% 22%, 100% 100%, 0% 100%, 0% 22%);
+    
+}
+
+.card-header{
+    padding: 2.5rem 1rem 3.5rem; 
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(img/corazon.png); 
+    background-size: cover;
+
+    -webkit-clip-path: polygon(50% 0%, 100% 22%, 100% 100%, 0% 100%, 0% 22%);
+    clip-path: polygon(50% 0%, 100% 22%, 100% 100%, 0% 100%, 0% 22%);
+
+}
+
+h1{
+    color: #000000;
+    margin: 0 auto; 
+    font-family: "Pacifico", cursive;
+    font-size: 60px;
+    max-width: 500px;  
+    text-align: center;
+    background: none;
+    line-height: 1.2; 
+} 
+
+.border {
+    background: white;     
+    padding: 0 2% 2% 2%;  
+}
+
+.music{
+    height: 300px;
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;
+}
+
+.pictures{
+    height: 300px;
+    display: flex;
+    justify-content: space-around; 
+    align-items: center; 
+    background-image: url(img/rositas.png);
+    background-size:cover;
+    background-position: center;
+}
+
+.pictures img { 
+    background-color: aliceblue;
+    padding: 1%;
+}
+
+#img1{
+    transform: rotate(-15deg);
+}
+
+#img2{ 
+    transform: rotate(15deg);
+}
