@@ -109,3 +109,19 @@ h1{
 #img2{ 
     transform: rotate(15deg);
 }
+.pictures img:hover {
+    transform: scale(1.2) rotate(0deg); /* crece y se endereza */
+    z-index: 10;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.4); /* sombra elegante */
+}
+#img1:hover{
+    transform: rotate(-15deg) scale(1.2);
+    z-index: 10;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.4);
+}
+
+#img2:hover{
+    transform: rotate(15deg) scale(1.2);
+    z-index: 10;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.4);
+}
